@@ -7,6 +7,8 @@ public class Customer_details {
     private int noOfTicketsBooked;
     Customer_details(){}
 
+
+    //custometr details object created.
     Customer_details(String name,long phno,int busbooked,int noOfTicketsBooked){
         this.customer_id =id++;
         this.name = name;
@@ -14,6 +16,8 @@ public class Customer_details {
         this.busbooked = busbooked;
         this.noOfTicketsBooked = noOfTicketsBooked;
     }
+
+    
     int getBusBooked(){
         return busbooked;
     }
